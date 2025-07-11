@@ -1,0 +1,16 @@
+{
+	"servers": {
+		"git": {
+			"command": "uvx",
+			"args": [
+				"mcp-server-git",
+				"--repository",
+				"https://github.com/thiennt1/hinte_git_mcp.git",
+        "--branch",
+        "main"
+			],
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}
